@@ -1,0 +1,126 @@
+.container{
+    width: 1320;
+    margin: 0 auto;
+    font-family: IBM Plex Sans;
+}
+body{
+    background-color: rgba(41, 85, 112, 0.451);
+}
+
+
+.button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+/* ==========common_css_end======== */
+
+/* ============nav_bar_start============== */
+#nav{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.nav_wrapper{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    padding-left: 20px;
+    width: 20%;
+    display: flex;
+}
+
+.nav_menu{
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    column-gap: 48px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+.nav_menu li a{
+    color: white;
+    text-decoration: none;
+}
+.nav_menu li a:hover{
+    color: #FF9600;
+}
+
+.nav_btn{
+    width: 20%;
+}
+
+.nav_btn button{
+    color: white;
+    background-color: #FF9600;
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: capitalize;
+    padding: 18px 30px 18px 50px;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    gap: 8px;
+    align-items: center;
+}
+/* ============nav_bar_end============== */
+
+/* ============banner start============== */
+#banner{
+    background: url(../images/header\ banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 191px 0 156px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+#banner h1{
+    color: white;
+    font-size: 72px;
+    font-weight: 700px;
+    max-width: 820px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 125%;
+}
+.button button{
+    color: #000;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 18px 30px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.button button:first-child{
+    background-color: #FF9600;
+    color: white;
+}
+.banner_shape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* ============banner end============== */
+
+/* ============nav_bar_start============== */
+/* ============nav_bar_start============== */
+/* ============nav_bar_start============== */
+/* ============nav_bar_start============== */
